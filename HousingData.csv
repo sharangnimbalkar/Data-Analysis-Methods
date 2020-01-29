@@ -1,0 +1,180 @@
+Address,Sold_price,Zipcode,Month,Num_of_bedrooms,Num_of_bathrooms,Squared_feet,Year_built,Stories,Lot_size,Parking_Spaces,Market_Land_Value,Sold_date,Season,Parking,Exterior_Wall_Type,Neighborhood,Basement,Fireplace,Floor,Roof
+992 Clough Pike,182500,45255,8,2,1,1382,1998,2,,1,1321,20-Aug-19,Summer,Attached,Brick,Forestville,Yes,Yes,"Carpet, Hardwood",
+4266 Wellington Dr,296000,45245,8,3,3,2575,1993,2,20473,2,115,21-Aug-19,Summer,Attached,Brick,Eastgate,Yes,Yes,,Composition
+4268 Larma Ln,770000,45220,6,6,3,4684,1926,2,13504,2,164,20-Jun-19,Summer,Attached,Stucco,Clifton,Yes,Yes,Tile,
+3851 Field Ln,675000,45220,10,5,4,4630,1942,2,93654,3,146,15-Oct-19,Fall,Attached,Brick,Clifton,Yes,Yes,,
+704 Wilfert Dr,115000,45245,9,3,1,1276,1962,1,20038,2,90,04-Sep-19,Fall,Attached,Brick,Union Township,No,No,"Carpet, Hardwood, Tile",Asphalt
+8204 Asbury Hills Dr,198400,45255,11,3,1,1160,1964,1,12197,1,171,06-Nov-19,Fall,Attached,Brick,Forestville,Yes,No,,Composition
+8167 Witts Meadow Ln,580000,45220,5,6,3,4203,1907,3,9627,2,138,31-May-19,Spring,Detached ,Brick,Clifton,Yes,Yes,,
+8316 Richland Dr,235000,45255,9,3,1,1542,1958,1,20038,2,152,11-Sep-19,Fall,On Street,Brick,Forestville,Yes,Yes,"Linoleum Vinyl, Tile",Shake Shingle
+8250 Tidewater Ct,560000,45220,11,2,3,3071,1970,2,27443,2,182,08-Nov-19,Fall,Attached,,Clifton,No,Yes,,
+1028 Portway Dr,245000,45255,8,3,3,1450,1988,1,7275,1,169,23-Aug-19,Summer,Attached,Brick Vinyl,Forestville,Yes,Yes,,Composition
+8259 Tidewater Ct,501000,45220,8,5,3,5182,1835,2,24830,4,97,12-Aug-19,Summer,Off Street,Brick,Clifton,Yes,Yes,,
+1059 Portway Dr,500000,45220,6,4,2,3092,1985,2,7710,2,162,17-Jun-19,Summer,Both off and on,Wood,Clifton,Yes,Yes,,
+1022 Portway Dr,488000,45220,3,4,2.5,2790,1912,,,,,08-Mar-19,Spring,,,Clifton,,,,
+8173 Asbury Hills Dr,439000,45220,9,3,2,3513,1905,2,9583,2,125,05-Sep-19,Fall,Attached,Brick,Clifton,Yes,No,,
+8158 Eastdale Dr,265500,45255,9,4,2,2060,1987,2,12197,2,129,17-Sep-19,Fall,Attached,Brick,Forestville,Yes,Yes,"Carpet, Laminate, Tile",Composition
+8381 Jakaro Dr,268620,45255,8,4,2,1940,1985,2,14375,2,138,21-Aug-19,Summer,Attached,,Forestville,Yes,Yes,"Carpet, Laminate, Tile",Composition
+8280 Forest Rd,205000,45255,7,3,2,1696,1996,1,8276,3,121,18-Jul-19,Summer,Attached,Brick,Forestville,Yes,Yes,"Hardwood, Tile",Composition
+869 Eight Mile Rd,435000,45220,5,5,2,2060,1928,2,15682,2,21,07-May-19,Spring,Detached ,Brick,Clifton,Yes,No,,
+873 Eight Mile Rd,385000,45255,9,4,2,2452,1992,2,13939,2,157,06-Sep-19,Fall,Attached,,Forestville,Yes,Yes,"Carpet, Hardwood, Tile",
+8400 Brownsboro Pl,342700,45255,8,4,2,2643,1993,2,18295,2,130,23-Aug-19,Summer,Attached,Brick Vinyl,Forestville,Yes,Yes,"Carpet, Hardwood",Composition
+8363 Brownsboro Pl,383000,45220,5,4,2.5,2333,1937,2,10106,2,164,10-May-19,Spring,Attached,Brick,Clifton,Yes,Yes,,
+952 Nordyke Rd,141000,45255,9,2,1,692,1938,1,14810,2,204,25-Sep-19,Fall,Detached ,Shingle,Forestville,Yes,Yes,Tile,Shake Shingle
+707 Winding Way,375000,45239,6,5,3.5,2876,1945,1,2876,2,130,13-Jun-19,Summer,Attached,Brick,Mt. Airy,Yes,Yes,Wood,
+4158 Balfour Dr,239500,45245,10,4,2,2103,1993,2,12197,2,114,02-Oct-19,Fall,Attached,Brick,,Yes,Yes,"Carpet, Linoleum Vinyl",Asphalt
+603 Terrace View Dr,370000,45255,10,4,2,2504,1992,2,27443,2,148,03-Oct-19,Fall,Attached,Brick,Forestville,Yes,Yes,"Carpet, Tile",
+696 Regent Rd,344900,45224,6,5,2.5,3096,1865,2,61419,2,111,13-Jun-19,Summer,Detached ,Siding,College Hill,Yes,Yes,,
+701 Regent Rd,227000,45245,6,4,2,2256,1999,2,10019,2,101,05-Jun-19,Summer,Attached,Brick Vinyl,,Yes,Yes,,Composition
+4179 Deepwood Ln,332620,45255,7,4,2,2238,1988,2,22216,2,149,19-Jul-19,Summer,Attached,Brick Vinyl,Forestville,Yes,Yes,"Carpet, Tile",
+4143 James Dr,325000,45223,10,4,2,1925,1918,3,4792,1,169,09-Oct-19,Fall,On Street,Brick,Northside,Yes,No,Wood,
+540 Alvina Ln,317000,45223,9,4,3,2637,1914,3,3920,2,120,27-Sep-19,Fall,Off Street,Wood,Northside,Yes,No,Wood,
+4045 Havenwood Dr,300000,45220,10,2,2,2592,1937,1,55321,,116,10-Oct-19,Fall,,Stone,Clifton,Yes,Yes,Carpet,
+4041 Havenwood Dr,300000,45220,7,4,2,2806,1908,2,10498,,107,26-Jul-19,Summer,,Brick,Clifton,Yes,No,,
+3986 Witham Ln,167000,45245,2,3,1,1296,1975,1,41818,2,129,28-Feb-19,Winter,Attached,Brick,Withamsville,No,No,"Carpet, Hardwood",Shake Shingle
+4045 Ashwood Ct,297000,45255,8,3,3,1712,1991,1,11326,2,173,08-Aug-19,Summer,Attached,,,Yes,Yes,,
+4027 Wilma Ct,295000,45255,8,4,2,1956,1985,2,12197,2,151,06-Aug-19,Summer,Attached,,Forestville,Yes,Yes,,
+3992 Glen Este Withamsville Rd,168000,45245,7,4,2,2105,1940,2,47480,4,80,19-Jul-19,Summer,Detached ,Cement,Withamsville,Yes,Yes,"Carpet, Hardwood, Tile",Shake Shingle
+3964 Pharo Dr,161500,45245,4,2,1,1488,1954,1,20038,2,109,11-Apr-19,Spring,Detached ,Brick,Withamsville,No,Yes,,Composition
+867 Stanlyn Dr,289900,45220,4,4,3,4201,1900,2,6186,1,69,23-Apr-19,Spring,Detached ,Stucco,Clifton,Yes,No,,
+844 Carol Dr,289500,45255,10,4,2,1644,1986,2,9104,2,176,17-Oct-19,Fall,Attached,Brick,Forestville,Yes,Yes,,
+3866 Jackie Dr,289000,45220,6,5,2,1458,1957,1,7187,1,198,06-Jun-19,Summer,Attached,Brick,Clifton,Yes,Yes,,
+3826 Banks Rd,251000,45245,4,2,1,1305,1934,2,217800,3,192,18-Apr-19,Spring,Detached ,Vinyl,,Yes,No,"Carpet, Hardwood, Laminate, Tile",Asphalt
+3940 Benjamin St,287500,45255,7,3,2,1780,1988,2,7884,2,162,22-Jul-19,Summer,Attached,Brick,Forestville,Yes,Yes,"Carpet, Hardwood",
+3945 Youngman Dr,286000,45220,4,3,1,1816,1924,3,4008,1,157,25-Apr-19,Spring,Attached,Brick,Clifton,Yes,Yes,,
+3954 Wilma Ct,283500,45220,3,3,1,2418,1926,3,5968,,117,18-Mar-19,Spring,,,Clifton,Yes,Yes,,
+3982 Wilma Ct,280000,45255,7,3,2,1961,1988,2,7362,2,143,30-Jul-19,Summer,On Street,Brick,Forestville,Yes,Yes,"Carpet, Linoleum Vinyl",
+913 Wilma Cir,275825,45220,9,2,1,1300,1927,2,8799,1,212,09-Sep-19,Fall,Attached,Brick,Clifton,Yes,Yes,,
+904 Shayler Rd,270000,45220,6,3,2,1436,1957,2,8799,2,188,20-Jun-19,Summer,Attached,Brick,Clifton,Yes,Yes,,
+913 Shayler Rd,267900,45220,9,3,2,2002,1840,2,14375,,134,04-Sep-19,Fall,,Stone,Clifton,Yes,,Lamenite,
+4006 Youngman Dr,265900,45255,8,4,2,1924,1970,2,12196,2,138,15-Aug-19,Summer,Attached,Brick,Forestville,Yes,Yes,,
+1486 Great Oak Dr,265000,45223,9,3,2,1466,2012,1,8494,2,181,26-Sep-19,Fall,Attached,Stone,Northside,Yes,Yes,Wood,
+7651 Benham Ct,391000,45255,10,4,2,2403,1992,2,17424,2,163,06-Oct-19,Fall,Attached,Brick,Forestville,Yes,Yes,Carpet,Composition
+1598 Cohasset Dr,262000,45255,5,4,2.5,2055,1974,2,11326,2,127,14-May-19,Spring,Attached,Brick,,Yes,Yes,,
+1508 Cohasset Dr,259000,45255,8,3,2,1644,1986,2,7536,2,158,15-Aug-19,Summer,Attached,Brick,Forestville,Yes,Yes,"Carpet, Hardwood, Tile",
+1537 Cohasset Dr,257000,45223,9,3,1,1897,1895,3,2744,1,135,06-Sep-19,Fall,On Street,Brick,Northside,Yes,No,,
+1518 Cohasset Dr,255000,45255,3,4,2,1964,1970,2,7884,2,130,21-Mar-19,Spring,Attached,Brick,,Yes,Yes,,
+7551 Pawtucket Dr,213500,45255,9,3,2,1662,1973,2,,2,128,15-Sep-19,Fall,Attached,Brick,Forestville,Yes,Yes,,Composition
+7843 Eglington Ct,245000,45255,8,3,2,1236,1986,1,10106,2,198,09-Aug-19,Summer,Attached,Vinyl,Forestville,Yes,Yes,"Carpet, Linoleum Vinyl",
+1798 Muskegon Dr,206500,45255,3,5,2,2264,1975,2,14375,2,91,07-Mar-19,Spring,Attached,Brick,,Yes,Yes,,Asphalt
+446 Woodwick Ct,245000,45245,7,4,2.5,2216,1999,2,20038,2,111,23-Jul-19,Summer,Attached,Vinyl,Union TWP,Yes,No,,
+1703 Loisdale Ct,240000,45245,7,3,2,1534,1990,1,23958,2,156,10-Jul-19,Summer,Attached,Brick,,Yes,Yes,Tile,
+1772 Loisdale Ct,240000,45245,7,4,2,2233,1994,2,15682,2,107,11-Jul-19,Summer,Attached,Brick,Withamsville,Yes,Yes,"Carpet, Hardwood, Tile",
+1679 Laval Dr,235000,45239,2,5,3.5,2530,1967,2,22216,2,93,28-Feb-19,Winter,Attached,Brick Vinyl,Mt. Airy,Yes,No,,
+1629 Laval Dr,231250,45255,10,3,2,1608,1974,2,210210,2,133,18-Oct-19,Fall,Attached,Brick,Forestville,Yes,Yes,,
+1575 Citadel Pl,230000,45255,5,3,2,1794,1975,2,14375,2,128,15-May-19,Spring,Attached,Brick,,Yes,Yes,,
+3563 Vine St,230000,45223,9,2,2,1272,1900,2,2178,1,181,04-Sep-19,Fall,On Street,Brick,Northside,Yes,Yes,Wood,
+3456 Oxford Ter,225000,45245,4,4,2.5,1820,1997,2,10324,2,124,04-Apr-19,Spring,Attached,,Withamsville,Yes,Yes,,
+3360 Bishop St,219900,45245,10,3,1,1583,1955,1,22216,5,139,16-Oct-19,Fall,Attached,Brick,Union Township,No,No,,
+209 Hosea Ave,215000,45245,5,3,2,1880,1998,2,11761,2,114,29-May-19,Spring,Attached,Brick Vinyl,,No,Yes,"Carpet, Hardwood, Linoleum Vinyl, Tile",
+110 Hosea Ave,215000,45220,4,2,1.5,1441,1930,,6360,1,149,22-Apr-19,Spring,Detached ,,Clifton,Yes,No,,
+16 Belsaw Pl,213500,45245,10,3,2,2230,1989,2,27443,2,96,28-Oct-19,Fall,Attached,Other,Eastgate,No,Yes,,
+3800 Middleton Ave,213000,45220,3,3,1,1732,1911,1,8102,2,123,18-Mar-19,Spring,Detached ,Brick,CUF,Yes,No,,
+843 Clifton Hills Ter,205000,45245,5,3,2,1704,1975,2,20473,2,120,07-May-19,Spring,On Street,,Withamsville,Yes,Yes,"Carpet, Hardwood, Tile",
+867 Clifton Crest Ter,200000,45255,8,3,2,1584,2004,1,19602,2,126,10-Aug-19,Summer,Attached,Vinyl,Union TWP,Yes,No,,
+1032 Clifton Hills Ave,200000,45224,11,4,1,1824,1936,2,6926,2,110,06-Nov-19,Fall,Attached,Brick,College Hill,Yes,Yes,,
+780 Crooked Stone Rd,198850,45220,6,2,2,2100,1969,2,11326,2,95,14-Jun-19,Summer,Attached,,Clifton,Yes,Yes,,
+1034 Clifton Hills Ave,197000,45245,10,4,2,1919,1974,2,20473,5,103,01-Oct-19,Fall,Attached,,Withamsville,No,No,,
+740 Lafayette Ave,190000,45255,7,2,3,1476,1986,2,59059,1,129,18-Jul-19,Summer,Attached,Siding,Forestville,Yes,No,,
+726 Lafayette Ave,189900,45223,9,2,1,1303,1909,1,3485,1,146,11-Sep-19,Fall,On Street,Brick,Northside,Yes,Yes,Carpet,
+880 Rue De La Paix #A-5,185500,45255,7,3,2.5,1136,1970,,7667,,163,30-Jul-19,Summer,,,,Yes,No,,
+880 Rue De La Paix #A-20,183000,45245,5,4,2.5,1702,1997,2,10062,2,108,16-May-19,Spring,Attached,Vinyl,Withamsville,Yes,No,,
+3443 Manor Hill Dr,183000,45239,10,4,2,2248,1948,2,8494,3,81,10-Oct-19,Fall,Attached,Stucco,Mt. Airy,Yes,No,,
+3411 Morrison Pl,180200,45255,7,2,2,1476,1984,2,65942,1,122,12-Jul-19,Summer,Attached,Brick,Forestville,Yes,Yes,,
+3420 Lyleburn Pl,177000,45245,9,3,2,1512,1976,2,17424,2,117,19-Sep-19,Fall,Attached,Brick,Withamsville,No,Yes,"Carpet, Tile",
+3406 Manor Hill Dr,177000,45224,7,4,2,1834,1913,2,12197,1,97,25-Jul-19,Summer,On Street,Wood,College Hill,Yes,Yes,Wood,
+596 Howell Ave,176000,45245,10,3,1,1236,1966,1,24394,1,142,01-Oct-19,Fall,Attached,Brick,Withamsville,No,No,"Carpet, Hardwood, Linoleum Vinyl, Tile",
+532 Riddle Crest Ln,171000,45239,4,3,2,1848,1992,1,9757,2,93,01-Apr-19,Spring,Attached,Brick,Mt. Airy,Yes,No,,
+521 Martin Luther King Dr W #27,169900,45245,9,3,2,1260,1955,1,23958,2,135,25-Sep-19,Fall,Attached,,Withamsville,No,No,,
+653 Foulke St,125000,45220,9,1,1,1248,1900,2,9365,3,100,24-Sep-19,Fall,Detached ,Vinyl,CUF,Yes,Yes,Tile,Metal
+522 Riddle Rd #23,93050,45220,3,2,1.5,968,1983,1,,,96,22-Mar-19,Spring,,Brick,CUF,Yes,Yes,Carpet,Composition
+641 Riddle Rd,169000,45239,5,4,2.5,2018,1962,2,8059,2,84,01-May-19,Spring,Attached,Brick,Mt. Airy,Yes,No,,
+629 Riddle Rd,167554,45220,11,2,2,1632,1941,2,7536,2,,24-Nov-19,Fall,Attached,Brick,Clifton,Yes,No,,
+2960 Deckebach Ave,125000,45220,10,3,2,1632,1912,2,4704,1,77,30-Oct-19,Fall,On Street,Brick,CUF,Yes,Yes,Tile,Slate
+2964 Deckebach Ave,187200,45220,4,2,1,1352,1914,2,7841,1,138,05-Apr-19,Spring,Detached ,Brick,CUF,Yes,Yes,Tile,Asphalt
+653 Foulke St,125000,45220,9,1,1,1248,1900,2,9365,3,100,24-Sep-19,Fall,Detached ,Vinyl,CUF,Yes,Yes,Tile,Metal
+381 Howell Ave,166000,45224,6,3,1,1800,1928,2,8886,1,92,07-Jun-19,Summer,Detached ,Brick,College Hill,Yes,Yes,Wood,
+525 Howell Ave,340000,45220,10,3,2,2857,1900,,6186,,119,07-Oct-19,Fall,,Brick,Clifton,Yes,Yes,Wood,Composition
+576 Terrace Ave,165000,45224,9,2,2,3332,1865,2,14375,4,50,05-Sep-19,Fall,Attached,Siding,College Hill,Yes,Yes,,
+533 Howell Ave,165000,45223,8,2,1,1012,1900,1,2483,1,163,09-Aug-19,Summer,On Street,Brick Vinyl,Northside,Yes,No,Tile,
+2516 Fairhill Dr,163000,45224,6,4,2,2242,1941,2,6926,2,73,20-Jun-19,Summer,Attached,Brick,College Hill,Yes,Yes,,
+5819 Glenview Ave,160000,45255,10,2,2,1184,1986,1,,1,135,30-Oct-19,Fall,Attached,Brick,Forestville,Yes,Yes,,
+1851 Hanfield St,160000,45223,10,3,2,1094,1922,1,3311,1,146,18-Oct-19,Fall,On Street,Brick,Northside,Yes,No,Tile,
+1700 Ella St,155000,45255,3,4,2.5,1813,1969,2,7797,1,85,07-Mar-19,Spring,Attached,,,Yes,No,,
+5835 Glenview Ave,265000,45224,7,3,2,2439,1921,2,71438,1,109,15-Jul-19,Summer,Attached,Wood,College Hill,Yes,Yes,Wood,Colonial
+4234 Florida Ave,265000,45223,10,4,3,2592,1910,2,3659,2,102,24-Oct-19,Fall,On Street,Brick,Northside,Yes,Yes,,Composition
+4218 Badgeley Cir,155000,45224,8,2,1,1382,1923,2,12632,2,112,05-Aug-19,Summer,On Street,Brick,College Hill,Yes,Yes,Wood,
+2106 Raeburn Dr,260000,45223,7,3,2,2468,1972,1,47045,2,105,30-Jul-19,Summer,On Street,Brick,Mt. Airy,Yes,Yes,Carpet,Composition
+4235 Cherry St,153000,45245,5,3,1,1440,1957,1,17424,2,106,28-May-19,Spring,Detached ,Brick,Withamsville,No,Yes,"Carpet, Hardwood, Laminate, Tile",
+6323 Hamilton Ave,249000,45224,7,4,1.5,2029,1930,2,7275,2,123,19-Jul-19,Summer,On Street,Brick,College Hill,Yes,Yes,Carpet,Tudor
+1606 N Dixon Cir,235000,45224,8,3,1,1836,1935,2,6926,1,128,14-Aug-19,Summer,Attached,Stucco,College Hill,Yes,Yes,Carpet,Tudor
+5529 Foxrun Ct,152500,45223,10,3,2,1344,1914,2,2352,,113,21-Oct-19,Fall,Off Street,Stone,Mt. Airy,Yes,No,Wood,
+1745 Jester St,150900,45239,3,4,2,1887,1964,2,7187,2,80,29-Mar-19,Spring,Attached,Brick,Mt. Airy,Yes,No,Lamenite,
+4574 Kirby Ave,217500,45223,7,3,2,1788,2014,2,6055,2,122,24-Jul-19,Summer,Attached,Vinyl,Mt. Airy,Yes,No,,Composition
+1718 Chase Ave,210000,45223,8,3,1,1680,1897,2,2439,1,125,15-Aug-19,Summer,On Street,Wood,Northside,Yes,Yes,Wood,Asphalt
+1610 N Dixon Cir,150000,45239,5,4,2,1820,1955,2,6142,4,41,01-May-19,Spring,Attached,Brick,Mt. Airy,No,No,,
+4201 Cherry St,200000,45223,8,3,2,2350,1916,2,3964,2,85,16-Aug-19,Summer,Off Street,Wood,Northside,Yes,Yes,Wood,Slate
+4142 Jerome Ave,149000,45255,8,3,1,1148,1958,1,1862,2,130,12-Aug-19,Summer,Attached,Brick,Union Township,No,Yes,"Carpet, Hardwood",
+6223 Cary Ave,184900,45224,8,3,2,1736,1915,2,6926,2,107,13-Aug-19,Summer,Detached ,Brick,College Hill,Yes,Yes,,Slate
+2840 W North Bend Rd,145000,45223,11,2,1,1572,1905,2,2919,1,92,06-Nov-19,Fall,Detached ,Siding,Northside,Yes,No,,
+6441 Hamilton Ave,142900,45239,7,3,2,1484,1925,2,14810,1,96,08-Jul-19,Summer,Detached ,Brick,Mt. Airy,Yes,Yes,,
+6002 Belmont Ave,174900,45224,11,4,2,1739,1947,2,8712,1,101,09-Nov-19,Fall,Attached,Brick,College Hill,Yes,No,Wood,CapeCod
+5716 Province Ln,140000,45255,6,2,2,1196,1960,1,20038,1,117,10-Jun-19,Summer,Attached,Brick,,No,Yes,Hardwood,
+2359 Harrywood Ct,139500,45239,5,2,2,1453,1992,2,1742,1,96,20-May-19,Spring,Attached,Brick,Mt. Airy,Yes,Yes,Lamenite,
+5953 Belmont Ave,137000,45245,4,3,1.5,976,1973,0,20038,,140,01-Apr-19,Spring,,,Withamsville,No,No,,
+5822 Belmont Ave,137000,45224,6,4,2,2112,1946,2,5750,4,65,24-Jun-19,Summer,Attached,Brick,College Hill,Yes,Yes,,
+2375 Van Leunen Dr,165000,45239,8,4,2,2268,1961,2,7971,2,73,12-Aug-19,Summer,Attached,Brick,Mt. Airy,Yes,No,Wood,Composition
+4255 Virginia Ave,165000,45223,8,3,1,2103,1890,3,3136,4,78,23-Aug-19,Summer,On Street,Brick,Northside,Yes,Yes,Wood,Asphalt
+4122 Witler St,137000,45239,5,2,1,1469,1941,1,6708,1,93,14-May-19,Spring,Detached ,,Mt. Airy,Yes,Yes,,
+2487 Kipling Ave,164000,45239,9,3,2,1599,1949,1,13068,1,103,10-Sep-19,Fall,Attached,Brick,Mt. Airy,Yes,Yes,,Attic
+1627 S Dixon Cir,134900,45239,7,2,2,1526,2004,1,1898,1,88,15-Jul-19,Summer,Attached,Brick,Mt. Airy,,,Carpet,
+2660 Fairhill Dr,162600,45239,5,3,1.5,1247,1963,1,10890,2,130,02-May-19,Spring,Attached,Brick,Mt. Airy,Yes,Yes,Tile,Ranch
+2412 Whitewood Ln,158500,45239,5,4,2,1924,1964,2,9191,2,82,13-May-19,Spring,Attached,Brick Metal,Mt. Airy,Yes,Yes,Carpet,Shake Shingle
+1635 Cooper St,155500,45223,9,2,1,996,1865,1,3093,,156,17-Sep-19,Fall,Off Street,Brick,Northside,Yes,No,Wood,Metal
+6114 Belleair Pl,132500,45245,11,3,1,1196,1981,1,16117,1,111,04-Nov-19,Fall,Attached,Wood,Withamsville,No,No,"Carpet, Tile",
+4323 Hays Ave,132000,45245,9,3,1,1445,1955,2,20038,1,91,10-Sep-19,Fall,Attached,Brick,Withamsville,Yes,No,Laminate,
+5575 Little Flower Ave,130000,45245,7,3,1.5,1040,1988,0,20473,,125,24-Jul-19,Summer,,Vinyl,Withamsville,No,No,,
+2529 Flanigan Ct,130000,45239,7,2,1,1646,1922,2,20908,2,79,30-Jul-19,Summer,Attached,Siding,Mt. Airy,Yes,No,,
+1925 Chase Ave,146000,45223,11,3,2,1208,1939,1,3790,1,121,08-Nov-19,Fall,Attached,Brick,Northside,Yes,No,Wood,Composition
+1644 Philomena Ave,130000,45239,4,2,2,1520,2005,1,1520,,86,16-Apr-19,Spring,,,Mt. Airy,,,,
+5688 Colerain Ave,125900,45224,6,2,1,1734,1923,1,6534,2,73,10-Jun-19,Summer,Detached ,Wood,College Hill,Yes,No,Lamenite,
+5845 Pameleen Ct,140000,45239,7,3,2,1188,1960,1,9278,1,118,09-Jul-19,Summer,Attached,Brick,Mt. Airy,Yes,No,Wood,Ranch
+2626 Allaire Ave,139900,45239,9,3,1,1356,1940,1,6882,1,103,04-Sep-19,Fall,Attached,Brick,Mt. Airy,Yes,No,Tile,CapeCod
+5586 Regimental Pl,125000,45220,10,3,1,1950,1900,2,8930,1,64,16-Oct-19,Fall,Detached ,Brick,CUF,Yes,No,,
+2659 Gracewood Ave,138000,45239,10,4,2,1258,1951,1,7884,1,110,16-Oct-19,Fall,On Street,Brick,Mt. Airy,Yes,No,Lamenite,Shake Shingle
+6370 Aspen Way,121477,45224,11,3,1,1085,1948,1,6055,1,110,14-Nov-19,Fall,On Street,Brick,College Hill,Yes,Yes,Carpet,
+2651 Allaire Ave,119900,45239,3,4,2.5,2205,1977,2,14810,1,54,13-Mar-19,Spring,Detached ,Brick,Mt. Airy,Yes,No,,
+5426 Scarletoak Dr,114000,45239,9,2,2,1153,1991,2,1568,1,99,18-Sep-19,Fall,Attached,Brick,Mt. Airy,Yes,Yes,Lamenite,
+6332 Aspen Way,132500,45224,8,3,1,1459,1936,2,5706,1,91,05-Aug-19,Summer,Attached,Brick,College Hill,Yes,Yes,Carpet,CapeCod
+2354 Buddleia Ct,130500,45239,8,2,2,1526,2002,1,1898,1,86,21-Aug-19,Summer,Attached,Brick,Mt. Airy,Yes,Yes,Carpet,Composition
+2323 W North Bend Rd,113000,45223,9,2,1,1041,1931,1,4661,1,109,12-Sep-19,Fall,Detached ,Brick,Northside,Yes,No,Lamenite,
+5414 Scarletoak Dr,110000,45223,8,1,1,806,1880,1,806,1,136,09-Aug-19,Summer,Attached,Brick,Northside,,,,
+2635 Jessup Rd,130000,45239,2,2,1,1432,1936,2,6893,2,91,20-Feb-19,Winter,Detached ,Vinyl,Mt. Airy,Yes,No,,Colonial
+5727 Wintrop Ave,129088,45224,11,2,1,1634,1938,1,4269,1,,15-Nov-19,Fall,On Street,Brick,College Hill,Yes,No,,CapeCod
+6320 Meis Ave,107500,45239,8,2,2,1280,1990,2,1873,1,84,06-Aug-19,Summer,Attached,Brick,Mt. Airy,Yes,Yes,Carpet,
+2646 Allaire Ave,124900,45239,4,4,1,1636,1951,1,7013,1,76,09-Apr-19,Spring,Attached,Brick,Mt. Airy,Yes,No,,Shake Shingle
+6087 Pawnee Dr,105000,45245,7,3,1.5,924,1971,1,13504,1,114,18-Jul-19,Summer,Underground/Basement,Vinyl,Union TWP,Yes,No,,
+6238 Cary Ave,120000,45224,9,2,1,1288,1923,2,9714,3,93,27-Sep-19,Fall,On Street,Brick,College Hill,Yes,Yes,Wood,Tudor
+5636 Little Flower Ave,105000,45245,5,3,1,1910,1951,1,21780,,55,22-May-19,Spring,,Vinyl,Withamsville,No,No,"Carpet, Tile",
+6011 Pawnee Dr,116000,45224,7,3,1,1277,1941,1,6752,1,91,03-Jul-19,Summer,Attached,Brick,College Hill,Yes,Yes,,CapeCod
+1633 Peaslee Ave,115725,45224,6,2,1,1568,1932,2,6229,1,74,10-Jun-19,Summer,On Street,Stucco,College Hill,Yes,Yes,Carpet,CapeCod
+5617 Regimental Pl,95000,45239,5,2,1,1040,1950,1,11761,2,91,30-May-19,Spring,Attached,Brick,Mt. Airy,Yes,Yes,Wood,
+3935 King Pl,91001,45239,3,2,1,1237,1961,2,5445,1,74,20-Mar-19,Spring,Attached,Brick,Mt. Airy,,,,
+5823 Monfort Hills Ave,110700,45239,4,4,2,1820,1954,3,7841,1,61,25-Apr-19,Spring,Off Street,Brick,Mt. Airy,Yes,No,Wood,Asphalt
+1615 Chase Ave #4F,90000,45245,9,3,1,1008,1954,1,20038,1,89,10-Sep-19,Fall,Carport,Brick,Withamsville,No,Yes,,
+5574 Regimental Pl,85000,45220,5,2,2,1300,1970,1,,1,65,21-May-19,Spring,Both off and on,Brick,Clifton,No,No,,
+6356 Aspen Way,97500,45224,9,4,1,1782,1951,1,5663,1,55,25-Sep-19,Fall,Attached,Brick,College Hill,Yes,Yes,,Composition
+5311 Colerain Ave,97000,45223,10,3,1,1348,1920,1,17424,1,72,23-Oct-19,Fall,Off Street,Other,Mt. Airy,Yes,No,Carpet,CapeCod
+2832 Robers Ave,82500,45239,3,3,1,1064,1956,1,6273,1,78,04-Mar-19,Spring,Attached,Brick,Mt. Airy,Yes,Yes,,
+5742 Davey Ave,93000,45224,8,2,1,1356,1925,2,4966,1,69,02-Aug-19,Summer,On Street,Wood,College Hill,Yes,Yes,Wood,Composition
+5640 Foxglove Ln,81000,45239,5,2,1,1053,1934,1,10106,2,77,28-May-19,Spring,Detached ,Brick,Mt. Airy,Yes,Yes,,
+5664 Colerain Ave,83400,45239,7,2,1,832,1925,1,9975,1,100,03-Jul-19,Summer,Detached ,Vinyl,Mt. Airy,Yes,No,,Ranch
+2603 Kathleen Ct,78492,45239,3,6,4,3024,1956,2,5314,1,26,29-Mar-19,Spring,Off Street,Brick,Mt. Airy,,,,
+5774 Colerain Ave,77450,45220,11,2,2,925,1986,1,925,,,24-Nov-19,Fall,,Brick,Clifton,,,,
+5817 Shadymist Ln,75000,45239,8,4,2,1820,1955,2,6229,2,41,23-Aug-19,Summer,Attached,Brick,Mt. Airy,Yes,No,,
+5646 Vogel Rd,77500,45239,10,3,1,1231,1949,2,10716,1,63,15-Oct-19,Fall,Attached,Brick,Mt. Airy,Yes,No,Wood,CapeCod
+2504 Flanigan Ct,68500,45220,7,2,2,1664,1925,2,5837,2,41,17-Jul-19,Summer,Detached ,,Clifton,,,,
+5616 Colerain Ave,51250,45239,8,3,2,1350,1938,1,8756,1,38,12-Aug-19,Summer,Attached,Brick,Mt. Airy,Yes,No,,Composition
+1830 Robley Ave,48000,45223,9,3,2,1253,2011,1,6011,2,38,30-Sep-19,Fall,On Street,Other,Northside,Yes,Yes,,Shake Shingle
+1967 Kentucky Ave,45000,45223,9,1,1,998,1915,3,2701,0,45,25-Sep-19,Fall,On Street,shingle,Northside,Yes,Yes,Tile,Shake Shingle
+4132 Kirby Ave,65000,45220,5,2,2,1247,1970,1,,1,52,03-May-19,Spring,Attached,Brick,Clifton,No,No,,
