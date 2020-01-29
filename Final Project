@@ -1,0 +1,143 @@
+HousingData=read.csv("HousingData.CSV", h=TRUE)
+head(HousingData)
+View(HousingData)
+library(psych)
+library(swfscMisc)
+str(HousingData)
+is.na(HousingData$Floor)
+sum(is.na(HousingData))
+
+#Correlation matrix, scatter plot and histogram
+pairs(HousingData, pch=".")
+
+model<-lm(Sold_price ~ Address + Zipcode)
+model1<-lm(Sold_price ~ Address + Zipcode + Sold_date + Season + Num_of_bedrooms +Num_of_bathrooms + Squared_feet 
+           + Stories + Year_built + Lot_size + Parking + Parking_Spaces + Exterior_Wall_Type + Neighborhood 
+           + Market_Land_Value + Basement + Fireplace, data=HousingData)
+summary(model1)
+model2<-lm(Sold_price ~ Zipcode + Num_of_bedrooms +Num_of_bathrooms + Squared_feet 
+           + Stories + Year_built + Lot_size + Parking_Spaces 
+           + Market_Land_Value , data=HousingData)
+summary(model2)
+
+HousingData[HousingData==""] <- NA
+sum(is.na(HousingData))
+sum(is.na(HousingData$Floor))
+is.na(HousingData$Floor)
+sum(is.na(HousingData$Roof))
+is.na(HousingData$Roof)
+
+#Missing Values Floor and Roof
+HousingData[HousingData==""] <- NA
+sum(is.na(HousingData))
+sum(is.na(HousingData$Floor))
+is.na(HousingData$Floor)
+sum(is.na(HousingData$Roof))
+is.na(HousingData$Roof)
+
+
+
+HousingData_new <- HousingData[-c(20,21)]
+colnames(HousingData_new)
+
+plot(HousingData_new$Zipcode, HousingData_new$Sold_price, main = "Plotting Data", xlab="Zipcode", ylab = "Price", pch=20, col="red")
+plot(HousingData_new$Season, HousingData_new$Sold_price, main = "Plotting Data", xlab="Season", ylab = "Price", pch=20, col="lightblue")
+plot(HousingData_new$Neighborhood, HousingData_new$Sold_price, main = "Plotting Data", xlab="Neighborhood", ylab = "Price", pch=20, col="lightblue")
+plot(HousingData_new$Year_built, HousingData_new$Sold_price, main = "Plotting Data", xlab="Year Built", ylab = "Price", pch=20, col="blue")
+
+
+hist(HousingData_new$Zipcode, main=NULL, xlab="Zipcode", col = "lightblue", border = "darkblue")
+hist(HousingData_new$Month, main=NULL, xlab="month", col = "lightblue", border = "darkblue")
+hist(HousingData_new$Address, main=NULL, xlab="Zipcode", col = "lightblue", border = "darkblue")
+hist(HousingData_new$Sold_price, main=NULL, xlab="Sold Price", col = "lightblue", border = "darkblue")
+
+plot(HousingData_new$Sold_price~HousingData_new$Zipcode,pch=20)
+plot(HousingData_new$Sold_price~HousingData_new$Season,pch=20)
+plot(HousingData_new$Sold_price~HousingData_new$Num_of_bedrooms,pch=20)
+plot(HousingData_new$Sold_price~HousingData_new$Num_of_bathrooms,pch=20)
+plot(HousingData_new$Sold_price~HousingData_new$Squared_feet,pch=20)
+plot(HousingData_new$Sold_price~HousingData_new$Stories,pch=20)
+plot(HousingData_new$Sold_price~HousingData_new$Year_built,pch=20)
+plot(HousingData_new$Sold_price~HousingData_new$Lot_size,pch=20)
+plot(HousingData_new$Sold_price~HousingData_new$Parking,pch=20)
+plot(HousingData_new$Sold_price~HousingData_new$Parking_Spaces,pch=20)
+plot(HousingData_new$Sold_price~HousingData_new$Basement,pch=20)
+plot(HousingData_new$Sold_price~HousingData_new$Fireplace,pch=20)
+
+par(mfrow=c(3,4))
+plot(HousingData_new$Sold_price~HousingData_new$Zipcode,pch=20,col = "blue", border = "darkblue")
+plot(HousingData_new$Sold_price~HousingData_new$Season,pch=20,col = "lightblue", border = "darkblue")
+plot(HousingData_new$Sold_price~HousingData_new$Num_of_bedrooms,pch=20,col = "blue", border = "darkblue")
+plot(HousingData_new$Sold_price~HousingData_new$Num_of_bathrooms,pch=20,col = "blue", border = "darkblue")
+plot(HousingData_new$Sold_price~HousingData_new$Squared_feet,pch=20,col = "blue", border = "darkblue")
+plot(HousingData_new$Sold_price~HousingData_new$Stories,pch=20,col = "blue", border = "darkblue")
+plot(HousingData_new$Sold_price~HousingData_new$Year_built,pch=20,col = "blue", border = "darkblue")
+plot(HousingData_new$Sold_price~HousingData_new$Lot_size,pch=20,col = "blue", border = "darkblue")
+plot(HousingData_new$Sold_price~HousingData_new$Parking,pch=20,col = "lightblue", border = "darkblue")
+plot(HousingData_new$Sold_price~HousingData_new$Parking_Spaces,pch=20,col = "blue", border = "darkblue")
+plot(HousingData_new$Sold_price~HousingData_new$Basement,pch=20,col = "lightblue", border = "darkblue")
+plot(HousingData_new$Sold_price~HousingData_new$Fireplace,pch=20,col = "lightblue", border = "darkblue")
+
+# forward selection using F
+add1(lm(Sold_price~1,data=HousingData_new), Sold_price~Zipcode+Month+Num_of_bedrooms+Num_of_bathrooms+Squared_feet+Year_built+Stories+Lot_size+Parking_Spaces+Season+Parking+Exterior_Wall_Type+Neighborhood+Basement+Fireplace, test="F")
+
+#Adding Squared_feet and Neighborhood
+add1(lm(Sold_price~Num_of_bedrooms+Num_of_bathrooms+Squared_feet+Neighborhood,data=HousingData_new), Sold_price~Zipcode+Month+Num_of_bedrooms+Num_of_bathrooms+Squared_feet+Year_built+Stories+Lot_size+Parking_Spaces+Season+Parking+Exterior_Wall_Type+Neighborhood+Basement+Fireplace, test="F")
+
+#Adding Fireplace
+add1(lm(Sold_price~Squared_feet+Neighborhood+Fireplace,data=HousingData_new), Sold_price~Zipcode+Month+Num_of_bedrooms+Num_of_bathrooms+Squared_feet+Year_built+Stories+Lot_size+Parking_Spaces+Season+Parking+Exterior_Wall_Type+Neighborhood+Basement+Fireplace, test="F")
+
+#Adding Num_of_bedrooms
+add1(lm(Sold_price~Squared_feet+Neighborhood+Fireplace+Num_of_bedrooms,data=HousingData_new), Sold_price~Zipcode+Month+Num_of_bedrooms+Num_of_bathrooms+Squared_feet+Year_built+Stories+Lot_size+Parking_Spaces+Season+Parking+Exterior_Wall_Type+Neighborhood+Basement+Fireplace, test="F")
+
+#Adding Num_of_bedrooms
+add1(lm(Sold_price~Squared_feet+Neighborhood+Fireplace+Num_of_bedrooms+Year_built,data=HousingData_new), Sold_price~Zipcode+Month+Num_of_bedrooms+Num_of_bathrooms+Squared_feet+Year_built+Stories+Lot_size+Parking_Spaces+Season+Parking+Exterior_Wall_Type+Neighborhood+Basement+Fireplace, test="F")
+
+modelA<-lm(Sold_price~Squared_feet+Neighborhood+Fireplace+Num_of_bedrooms+Year_built,data=HousingData_new)
+summary(modelA)
+
+plot(resiprocal(object=HousingData$Sold_price))
+#Adding Lot_size
+add1(lm(Sold_price~Squared_feet+Neighborhood+Fireplace+Num_of_bedrooms+Lot_size,data=HousingData_new), Sold_price~Zipcode+Month+Num_of_bedrooms+Num_of_bathrooms+Squared_feet+Year_built+Stories+Lot_size+Parking_Spaces+Season+Parking+Exterior_Wall_Type+Neighborhood+Basement+Fireplace, test="F")
+
+#Adding Parking
+add1(lm(Sold_price~Squared_feet+Neighborhood+Fireplace+Num_of_bedrooms+Lot_size+Parking,data=HousingData_new), Sold_price~Zipcode+Month+Num_of_bedrooms+Num_of_bathrooms+Squared_feet+Year_built+Stories+Lot_size+Parking_Spaces+Season+Parking+Exterior_Wall_Type+Neighborhood+Basement+Fireplace, test="F")
+
+model1<-lm(Sold_price~Squared_feet+Neighborhood+Fireplace+Num_of_bedrooms+Lot_size+Parking,data=HousingData_new)
+summary(model1)
+
+par(mfrow=c(2,2))
+plot(model1)
+
+observations_for_pred2=data.frame(Squared_feet=c(1078), Parking=c('On Street'), Lot_size=c(3964), Neighborhood=c('College Hill'), Fireplace=c('Yes'), Num_of_bedrooms=c(2))
+observations_for_pred2
+
+
+
+predicted_val2=predict(model1,observations_for_pred2,interval="prediction", level=0.95, type="response")
+predicted_val2
+
+model2<-lm(Sold_price~Squared_feet+Neighborhood+Fireplace+Num_of_bedrooms+Lot_size,data=HousingData_new)
+summary(model2)
+
+observations_for_pred2=data.frame(Squared_feet=c(1078), Parking=c('On Street'), Lot_size=c(3964), Neighborhood=c('College Hill'), Fireplace=c('Yes'), Num_of_bedrooms=c(2))
+observations_for_pred2
+
+
+
+predicted_val2=predict(model2,observations_for_pred2,interval="prediction", level=0.95, type="response")
+predicted_val2
+
+#Observation 1
+observations_for_pred2=data.frame(Squared_feet=c(1400), Parking=c('Detached '), Lot_size=c(7710), Neighborhood=c('Mt. Airy'), Fireplace=c('Yes'), Num_of_bedrooms=c(3))
+observations_for_pred2
+
+predicted_val2=predict(model1,observations_for_pred2,interval="prediction", level=0.95, type="response")
+predicted_val2
+
+#Observation 2
+observations_for_pred3=data.frame(Squared_feet=c(2046), Parking=c('Attached'), Lot_size=c(8146), Neighborhood=c('Mt. Airy'), Fireplace=c('No'), Num_of_bedrooms=c(4))
+observations_for_pred3
+
+predicted_val3=predict(model1,observations_for_pred3,interval="prediction", level=0.95, type="response")
+predicted_val3
